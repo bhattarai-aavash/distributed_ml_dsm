@@ -248,6 +248,53 @@ Edit the last line(s) of `script.sh` to call `train_1`, `train_2`, or your own s
   `user@host.uwyo.edu password`
 
 ---
+## Paper results
+
+Representative training/validation curves from our distributed ML experiments. All figures are in the **`paper_results/`** folder.
+
+### Ember results
+
+**Training accuracy**
+
+![Ember training accuracy](paper_results/ember_train_acc.png)
+
+**Training loss**
+
+![Ember training loss](paper_results/ember_train_loss.png)
+
+**Validation accuracy**
+
+![Ember validation accuracy](paper_results/ember_val_acc.png)
+
+**Validation loss**
+
+![Ember validation loss](paper_results/ember_val_loss.png)
+
+### CIC-IDS2017 results
+
+**Training accuracy**
+
+![CIC-IDS2017 training accuracy](paper_results/cic_train_acc.png)
+
+**Training loss**
+
+![CIC-IDS2017 training loss](paper_results/cic_train_loss.png)
+
+**Validation accuracy**
+
+![CIC-IDS2017 validation accuracy](paper_results/cic_val_acc.png)
+
+**Validation loss**
+
+![CIC-IDS2017 validation loss](paper_results/cic_val_loss.png)
+
+### Interpretation
+
+- **Accuracy** (`*_acc.png`): Compare train vs validation to spot overfitting.
+- **Loss** (`*_loss.png`): Divergence between train and validation loss often indicates overfitting or learning-rate issues.
+- Use these plots to sanity-check runs and to guide hyperparameters (learning rate, regularization, early stopping).
+
+
 
 ## Summary
 
@@ -263,5 +310,6 @@ Edit the last line(s) of `script.sh` to call `train_1`, `train_2`, or your own s
 | Monitor | `check_training_status` or `start_training_monitor` |
 | Stop training | `stop_all_distributed_ml_processes` or `stop_distributed_training` |
 | Get logs | `copy_logs`, `copy_keydb_logs`, `copy_training_logs_from_servers` |
+| View paper results | Open PNGs in `paper_results/` (Ember and CIC-IDS train/val accuracy and loss) |
 
 For a single command that runs a full training pipeline, set the last line of `script.sh` to the function you want (e.g. `train_1` or `train_2`) and run `./script.sh`.
