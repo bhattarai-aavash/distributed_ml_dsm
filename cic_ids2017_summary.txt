@@ -1,0 +1,80 @@
+CIC-IDS2017 Dataset Analysis Summary
+============================================================
+
+Directory: CIC-IDS-Data
+CSV files: 8
+Total rows (sum across files): 2,830,743
+Approx memory (sum across files): 1833.87 MB
+
+File: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+  Shape: (225745, 79)
+  Memory: 145.94 MB
+  Columns: 79
+  Categorical: 1
+  Numeric: 78
+  Missing values (non-zero):
+    Flow Bytes/s: 4
+
+File: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+  Shape: (286467, 79)
+  Memory: 185.80 MB
+  Columns: 79
+  Categorical: 1
+  Numeric: 78
+  Missing values (non-zero):
+    Flow Bytes/s: 15
+
+File: Friday-WorkingHours-Morning.pcap_ISCX.csv
+  Shape: (191033, 79)
+  Memory: 123.70 MB
+  Columns: 79
+  Categorical: 1
+  Numeric: 78
+  Missing values (non-zero):
+    Flow Bytes/s: 28
+
+File: Monday-WorkingHours.pcap_ISCX.csv
+  Shape: (529918, 79)
+  Memory: 343.15 MB
+  Columns: 79
+  Categorical: 1
+  Numeric: 78
+  Missing values (non-zero):
+    Flow Bytes/s: 64
+
+File: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+  Shape: (288602, 79)
+  Memory: 186.88 MB
+  Columns: 79
+  Categorical: 1
+  Numeric: 78
+  Missing values (non-zero):
+    Flow Bytes/s: 18
+
+File: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+  Shape: (170366, 79)
+  Memory: 110.43 MB
+  Columns: 79
+  Categorical: 1
+  Numeric: 78
+  Missing values (non-zero):
+    Flow Bytes/s: 20
+
+File: Tuesday-WorkingHours.pcap_ISCX.csv
+  Shape: (445909, 79)
+  Memory: 288.81 MB
+  Columns: 79
+  Categorical: 1
+  Numeric: 78
+  Missing values (non-zero):
+    Flow Bytes/s: 201
+
+File: Wednesday-workingHours.pcap_ISCX.csv
+  Shape: (692703, 79)
+  Memory: 449.16 MB
+  Columns: 79
+  Categorical: 1
+  Numeric: 78
+  Missing values (non-zero):
+    Flow Bytes/s: 1008
+

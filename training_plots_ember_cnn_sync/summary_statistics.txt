@@ -1,0 +1,58 @@
+Training Summary Statistics
+==================================================
+
+mteverest4:
+  Total iterations: 22
+  Training metrics points: 22
+  Validation metrics points: 22
+  Validation F1/Precision/Recall points: 22
+  Elapsed time range: 1.8s to 3695.9s
+  Average elapsed time: 1921.5s
+  Training Loss - Min: 0.3411, Max: 1.0144, Final: 0.3415
+  Training Acc - Min: 0.4648, Max: 0.8555, Final: 0.8555
+  Validation Loss - Min: 0.6364, Max: 0.7064, Final: 0.6659
+  Validation Acc - Min: 0.4802, Max: 0.7231, Final: 0.6152
+  Validation F1 - Min: 0.3334, Max: 0.7185, Final: 0.5502
+  Validation Precision - Min: 0.4636, Max: 0.7728, Final: 0.7728
+  Validation Recall - Min: 0.4802, Max: 0.7231, Final: 0.6152
+
+mteverest3:
+  Total iterations: 22
+  Training metrics points: 22
+  Validation metrics points: 22
+  Validation F1/Precision/Recall points: 22
+  Elapsed time range: 2.1s to 3718.9s
+  Average elapsed time: 1945.7s
+  Training Loss - Min: 0.2832, Max: 0.9795, Final: 0.2832
+  Training Acc - Min: 0.4727, Max: 0.8805, Final: 0.8805
+  Validation Loss - Min: 0.6389, Max: 0.7738, Final: 0.7738
+  Validation Acc - Min: 0.4464, Max: 0.7058, Final: 0.5001
+  Validation F1 - Min: 0.3335, Max: 0.7047, Final: 0.3335
+  Validation Precision - Min: 0.3997, Max: 0.7679, Final: 0.7500
+  Validation Recall - Min: 0.4464, Max: 0.7058, Final: 0.5001
+
+mteverest1:
+  Total iterations: 22
+  Training metrics points: 22
+  Validation metrics points: 22
+  Validation F1/Precision/Recall points: 22
+  Elapsed time range: 2.7s to 3743.5s
+  Average elapsed time: 1972.6s
+  Training Loss - Min: 0.3380, Max: 0.9898, Final: 0.3819
+  Training Acc - Min: 0.5195, Max: 0.8514, Final: 0.8391
+  Validation Loss - Min: 0.6376, Max: 0.7769, Final: 0.7769
+  Validation Acc - Min: 0.4963, Max: 0.7182, Final: 0.5000
+  Validation F1 - Min: 0.3334, Max: 0.7173, Final: 0.3334
+  Validation Precision - Min: 0.2500, Max: 0.7500, Final: 0.2500
+  Validation Recall - Min: 0.4963, Max: 0.7182, Final: 0.5000
+
+Average Metrics Across All Servers:
+----------------------------------------
+Total iterations with averages: 21
+Average server count per iteration: 3.0
+Average elapsed time across servers: 1862.2s
+Total iterations with complete average data: 21
+Training Loss - Min: 0.3458, Max: 0.9946, Final: 0.3507
+Training Acc - Min: 0.4857, Max: 0.8492, Final: 0.8492
+Validation Loss - Min: 0.6386, Max: 0.7048, Final: 0.6880
+Validation Acc - Min: 0.4884, Max: 0.7131, Final: 0.6122

@@ -1,0 +1,92 @@
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+myenv/
+venv/
+.env
+.venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# -----------------------------------------------------------------------------
+# Secrets / credentials
+# -----------------------------------------------------------------------------
+nodes.txt
+.ml_cars_password
+*.pem
+
+# -----------------------------------------------------------------------------
+# Datasets and data files
+# -----------------------------------------------------------------------------
+*.parquet
+*.csv
+train_ember_*
+test_ember_*
+ember*
+/CIC-IDS-Data/
+/cic_shard/
+/unsw_shard/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.feather
+
+# -----------------------------------------------------------------------------
+# Logs, runs, and training artifacts
+# -----------------------------------------------------------------------------
+/logs/
+/training_logs_*/
+training_*.log
+training_*.pid
+training_cic_*.log
+training_cic_*.pid
+monitor.log
+monitor.pid
+*.out
+server_counts*
+
+# -----------------------------------------------------------------------------
+# KeyDB build artifacts (source in KeyDB/ is tracked)
+# -----------------------------------------------------------------------------
+KeyDB/src/keydb-server
+KeyDB/src/keydb-cli
+KeyDB/*.o
+KeyDB/*.a
+KeyDB/*.d
+KeyDB/*.log
+KeyDB/*.rdb
+KeyDB/*.aof
+KeyDB/dump.rdb
+
+# -----------------------------------------------------------------------------
+# Archives and temp
+# -----------------------------------------------------------------------------
+*.tar.gz
+*.zip
+*.tgz
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# -----------------------------------------------------------------------------
+# Generated outputs
+# -----------------------------------------------------------------------------
+validation_loss_plots*.png
+*_plots_*.png
+unsw_dataset_summary.txt
+
+# -----------------------------------------------------------------------------
+# cic_* (CIC dataset / generated CIC files; keep scripts like cic_weight_initializer.py)
+# Use more specific ignores above; this was legacy broad ignore
+# cic_* covered by /cic_shard/ and *.parquet
